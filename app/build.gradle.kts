@@ -66,4 +66,10 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+
+    // system UI Controller || change status bar colour
+    implementation(libs.accompanist.systemuicontroller)
+
+    //Extended Icons
+    implementation(libs.androidx.material.icons.extended.android)
 }
